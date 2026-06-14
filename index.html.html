@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#07090E">
+<title>CinéFree — Films du domaine public en streaming gratuit &amp; légal</title>
+<meta name="description" content="Regardez gratuitement et légalement des films du domaine public et sous licence Creative Commons : classiques, cinéma muet, horreur, documentaires, animation. Sans inscription.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://cinefreestreaming.com/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="CinéFree — Cinéma libre en streaming gratuit &amp; légal">
+<meta property="og:description" content="Films du domaine public et Creative Commons en streaming. 100% légal, sans inscription.">
+<meta property="og:url" content="https://cinefreestreaming.com/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23E50914'/%3E%3Cpath d='M40 30 L70 50 L40 70 Z' fill='%23ffffff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2527584002466358" crossorigin="anonymous"></script>
+
+<style>
+:root{--bg:#07090E;--bg-2:#0E121B;--panel:#10141E;--panel-2:#161C28;--ink:#EEF1F6;--muted:#9AA4B4;--line:rgba(255,255,255,.09);--line-2:rgba(255,255,255,.16);--red:#E50914;--red-dark:#B20710;--amber:#F5A623;--radius:14px;--radius-sm:10px;--wrap:1180px;--display:"Oswald",system-ui,sans-serif;--body:"Inter",system-ui,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--body);background:var(--bg);color:var(--ink);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 22px;width:100%}
+header.site{position:sticky;top:0;z-index:60;background:rgba(7,9,14,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+header.site .nav{display:flex;align-items:center;justify-content:space-between;height:66px}
+.brand{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:600;font-size:24px;letter-spacing:.5px;text-transform:uppercase}
+.brand b{color:var(--red);font-weight:700}
+.brand .logo{width:34px;height:34px;border-radius:9px;background:var(--red);display:grid;place-items:center;box-shadow:0 6px 18px rgba(229,9,20,.35)}
+.brand .logo svg{width:16px;height:16px;margin-left:2px}
+.nav-links{display:flex;align-items:center;gap:28px}
+.nav-links a{font-size:14px;font-weight:500;color:var(--muted);letter-spacing:.3px;transition:color .18s}
+.nav-links a:hover{color:var(--ink)}
+.nav-toggle{display:none;background:none;border:0;color:var(--ink);font-size:24px;cursor:pointer;padding:4px 8px}
+.filmstrip{height:10px;background:repeating-linear-gradient(90deg,transparent 0 14px,rgba(255,255,255,.16) 14px 20px);background-color:#04060A;border-bottom:1px solid var(--line)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font-family:var(--body);font-weight:600;font-size:14px;padding:12px 22px;border-radius:var(--radius-sm);border:1px solid transparent;cursor:pointer;transition:transform .12s,background .18s,border-color .18s;text-align:center}
+.btn:active{transform:translateY(1px)}
+.btn-primary{background:var(--red);color:#fff;box-shadow:0 8px 22px rgba(229,9,20,.32)}
+.btn-primary:hover{background:var(--red-dark)}
+.btn-amber{background:var(--amber);color:#1a1205}
+.btn-ghost{background:transparent;border-color:var(--line-2);color:var(--ink)}
+.btn-ghost:hover{border-color:#fff;background:rgba(255,255,255,.04)}
+.btn-lg{padding:15px 30px;font-size:15px}
+.hero{position:relative;padding:90px 0 64px;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;z-index:-2;background:radial-gradient(1000px 460px at 78% -10%,rgba(229,9,20,.22),transparent 60%),radial-gradient(720px 400px at 6% 120%,rgba(245,166,35,.10),transparent 60%)}
+.hero-inner{max-width:760px}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-family:var(--display);text-transform:uppercase;letter-spacing:2px;font-size:12px;font-weight:600;color:var(--amber);border:1px solid var(--line-2);padding:6px 14px;border-radius:100px;margin-bottom:20px}
+.eyebrow .dot{width:7px;height:7px;border-radius:50%;background:var(--red);box-shadow:0 0 0 4px rgba(229,9,20,.2)}
+.hero h1{font-family:var(--display);font-weight:700;font-size:clamp(40px,7.5vw,72px);line-height:1;letter-spacing:-.5px;text-transform:uppercase;margin-bottom:18px}
+.hero h1 em{color:var(--red);font-style:normal}
+.hero p.lead{font-size:18px;color:var(--muted);max-width:580px;margin-bottom:30px}
+.hero-cta{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:44px}
+.stats{display:flex;gap:14px;flex-wrap:wrap}
+.stat{flex:1;min-width:120px;background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px}
+.stat .v{font-family:var(--display);font-weight:700;font-size:30px;line-height:1;color:#fff}
+.stat .v.red{color:var(--red)}
+.stat .l{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:1.5px;margin-top:6px}
+.section{padding:60px 0;border-top:1px solid var(--line)}
+.section-head{margin-bottom:30px}
+.section-head h2{font-family:var(--display);text-transform:uppercase;letter-spacing:.5px;font-size:clamp(28px,4.4vw,40px);font-weight:600;line-height:1.04}
+.kicker{font-family:var(--display);text-transform:uppercase;letter-spacing:2px;color:var(--amber);font-size:12px;font-weight:600;margin-bottom:8px;display:block}
+.section-head p{color:var(--muted);max-width:560px;margin-top:8px}
+.rails{display:flex;flex-direction:column;gap:40px}
+.rail-head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:14px}
+.rail-head h3{font-family:var(--display);text-transform:uppercase;letter-spacing:.5px;font-size:clamp(19px,3vw,26px);font-weight:600}
+.rail-head .count{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:1px;white-space:nowrap}
+.rail-track{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 2px 14px;-webkit-overflow-scrolling:touch;scrollbar-width:thin;scrollbar-color:var(--line-2) transparent}
+.rail-track::-webkit-scrollbar{height:8px}
+.rail-track::-webkit-scrollbar-thumb{background:var(--line-2);border-radius:8px}
+.rail-card{flex:0 0 auto;width:158px;scroll-snap-align:start;display:flex;flex-direction:column;gap:8px;transition:transform .18s}
+.rail-card:hover{transform:translateY(-5px)}
+.poster{position:relative;aspect-ratio:2/3;width:100%;border-radius:var(--radius);overflow:hidden;background:linear-gradient(160deg,#1b2230,#0c0f17);border:1px solid var(--line);box-shadow:0 14px 40px rgba(0,0,0,.45)}
+.poster img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .5s ease,filter .3s}
+.rail-card:hover .poster img{transform:scale(1.06);filter:brightness(.7)}
+.poster .grad{position:absolute;inset:0;background:linear-gradient(180deg,transparent 42%,rgba(4,6,10,.92));z-index:1}
+.poster.noimg img{display:none}
+.poster .badge-cc{position:absolute;top:9px;left:9px;z-index:3;font-family:var(--display);font-size:10px;font-weight:600;letter-spacing:1px;text-transform:uppercase;background:var(--amber);color:#1a1205;padding:3px 8px;border-radius:6px}
+.poster .play{position:absolute;inset:0;z-index:3;display:grid;place-items:center;opacity:0;transition:opacity .22s}
+.poster .play span{width:54px;height:54px;border-radius:50%;background:var(--red);display:grid;place-items:center;box-shadow:0 10px 30px rgba(229,9,20,.5);transform:scale(.85);transition:transform .22s}
+.poster .play span svg{width:22px;height:22px;margin-left:3px}
+.rail-card:hover .play{opacity:1}.rail-card:hover .play span{transform:scale(1)}
+.poster .cap{position:absolute;left:0;right:0;bottom:0;z-index:2;padding:12px}
+.poster .cap .yr{font-family:var(--display);font-size:11px;letter-spacing:2px;color:var(--amber);text-transform:uppercase}
+.poster .cap .ti{font-family:var(--display);font-size:16px;font-weight:600;text-transform:uppercase;line-height:1.05;margin-top:2px;color:#fff}
+.rc-title{font-size:12.5px;color:var(--muted);line-height:1.3;padding:0 2px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:32px}
+.rail-skel{flex:0 0 auto;width:158px}
+.rail-skel .sk{aspect-ratio:2/3;width:100%;border-radius:var(--radius);background:linear-gradient(100deg,#10141e 30%,#1a2130 50%,#10141e 70%);background-size:200% 100%;animation:shimmer 1.3s infinite;border:1px solid var(--line)}
+@keyframes shimmer{from{background-position:200% 0}to{background-position:-200% 0}}
+.ad-slot{margin:42px auto;max-width:980px;min-height:90px;border:1px dashed var(--line-2);border-radius:var(--radius-sm);display:grid;place-items:center;color:var(--muted);font-size:12px;letter-spacing:1px;text-transform:uppercase;background:var(--bg-2)}
+.ad-slot ins{display:block;width:100%}
+.grid-mag{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.article-card{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:26px;display:flex;flex-direction:column;gap:14px}
+.article-card .tag{font-family:var(--display);text-transform:uppercase;letter-spacing:2px;font-size:11px;color:var(--amber);font-weight:600}
+.article-card h3{font-family:var(--display);font-size:21px;font-weight:600;line-height:1.15;text-transform:uppercase;letter-spacing:.3px}
+.article-card>p{font-size:14.5px;color:var(--muted)}
+.article-card details summary{cursor:pointer;color:var(--red);font-weight:600;font-size:14px;list-style:none}
+.article-card details summary::-webkit-details-marker{display:none}
+.article-card details[open] summary{margin-bottom:12px}
+.article-card details p{margin-bottom:12px;color:#cfd6e2;font-size:14.5px}
+footer.site{border-top:1px solid var(--line);background:var(--bg-2);margin-top:40px}
+footer.site .wrap{padding-top:40px;padding-bottom:34px}
+.foot-cols{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:30px;margin-bottom:30px}
+.foot-cols h4{font-family:var(--display);text-transform:uppercase;letter-spacing:1px;font-size:13px;margin-bottom:14px;color:var(--muted)}
+.foot-cols a{display:block;color:var(--muted);font-size:14px;margin-bottom:9px}
+.foot-cols a:hover{color:var(--ink)}
+.foot-cols p{color:var(--muted);font-size:14px}
+.foot-bottom{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;border-top:1px solid var(--line);padding-top:22px;color:var(--muted);font-size:13px}
+.cookie-banner{position:fixed;left:16px;right:16px;bottom:16px;z-index:80;background:var(--panel-2);border:1px solid var(--line-2);border-radius:var(--radius);padding:16px 18px;box-shadow:0 20px 60px rgba(0,0,0,.5);display:none}
+.cookie-banner.show{display:block}
+.cookie-inner{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;max-width:var(--wrap);margin:0 auto}
+.cookie-inner p{font-size:14px;color:var(--muted);max-width:620px}
+.cookie-inner a{color:var(--amber);text-decoration:underline}
+.cookie-actions{display:flex;gap:10px;flex-shrink:0}
+.modal-overlay{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;padding:20px;background:rgba(4,6,10,.74);backdrop-filter:blur(4px)}
+.modal-overlay.show{display:flex}
+.modal{background:var(--panel-2);border:1px solid var(--line-2);border-radius:var(--radius);max-width:440px;width:100%;padding:30px 28px;text-align:center;position:relative;box-shadow:0 30px 80px rgba(0,0,0,.6)}
+.modal .m-icon{width:52px;height:52px;border-radius:14px;background:var(--red);display:grid;place-items:center;margin:0 auto 16px;box-shadow:0 8px 24px rgba(229,9,20,.4)}
+.modal .m-icon svg{width:24px;height:24px}
+.modal h3{font-family:var(--display);text-transform:uppercase;letter-spacing:.5px;font-size:24px;font-weight:600;margin-bottom:10px}
+.modal p{color:var(--muted);font-size:15px;margin-bottom:22px}
+.modal .modal-actions{display:flex;flex-direction:column;gap:10px}
+.modal .m-close{position:absolute;top:12px;right:14px;background:none;border:0;color:var(--muted);font-size:22px;cursor:pointer;line-height:1}
+@media(max-width:900px){.grid-mag{grid-template-columns:1fr}.foot-cols{grid-template-columns:1fr 1fr}}
+@media(max-width:640px){
+.nav-links{position:fixed;top:66px;left:0;right:0;background:rgba(7,9,14,.97);backdrop-filter:blur(14px);flex-direction:column;gap:0;padding:8px 0;border-bottom:1px solid var(--line);transform:translateY(-130%);transition:transform .25s ease}
+.nav-links.open{transform:translateY(0)}.nav-links a{padding:14px 22px;width:100%;font-size:16px}.nav-toggle{display:block}
+.rail-card,.rail-skel{width:138px}.foot-cols{grid-template-columns:1fr}.hero{padding:60px 0 48px}.section{padding:46px 0}.stat .v{font-size:24px}
+.cookie-inner{flex-direction:column;align-items:flex-start}.cookie-actions{width:100%}.cookie-actions .btn{flex:1}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap nav">
+    <a href="/" class="brand"><span class="logo"><svg viewBox="0 0 24 24" fill="#fff"><path d="M8 5v14l11-7z"/></svg></span>Ciné<b>Free</b></a>
+    <nav class="nav-links" id="nav-links">
+      <a href="#catalogue">Catalogue</a>
+      <a href="#magazine">Magazine</a>
+      <a href="/faire-un-don.html">Faire un don</a>
+      <a href="/contact.html">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Menu">&#9776;</button>
+  </div>
+</header>
+<div class="filmstrip"></div>
+
+<section class="hero">
+  <div class="wrap hero-inner">
+    <span class="eyebrow"><span class="dot"></span>Domaine public · Creative Commons · 100 % légal</span>
+    <h1>Le cinéma <em>libre</em>, gratuit pour tous.</h1>
+    <p class="lead">Des milliers de films, séries, comédies et documentaires tombés dans le domaine public. Pas d'abonnement, pas d'inscription : appuyez sur lecture.</p>
+    <div class="hero-cta">
+      <a href="#catalogue" class="btn btn-primary btn-lg">Voir le catalogue</a>
+      <a href="#magazine" class="btn btn-ghost btn-lg">Lire le magazine</a>
+    </div>
+    <div class="stats">
+      <div class="stat"><div class="v red">100%</div><div class="l">Légal</div></div>
+      <div class="stat"><div class="v">0 €</div><div class="l">Gratuit</div></div>
+      <div class="stat"><div class="v">Sans</div><div class="l">Inscription</div></div>
+      <div class="stat"><div class="v">HD</div><div class="l">Qualité</div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="catalogue">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Catalogue en accès libre</span>
+      <h2>Les meilleurs du domaine public</h2>
+      <p>Films, séries, documentaires et théâtre — les plus vus et les mieux notés, mis à jour automatiquement. Chaque affiche ouvre la lecture sur Internet Archive.</p>
+    </div>
+
+    <div class="rails" id="rails"></div>
+  </div>
+</section>
+
+<div class="wrap">
+  <div class="ad-slot">
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2527584002466358" data-ad-slot="0000000000" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+</div>
+
+<section class="section" id="magazine">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="kicker">Le magazine CinéFree</span>
+      <h2>Comprendre le cinéma libre</h2>
+    </div>
+    <div class="grid-mag">
+      <article class="article-card">
+        <span class="tag">Comprendre</span>
+        <h3>Pourquoi ces films sont gratuits et légaux</h3>
+        <p>Une grande partie du streaming « gratuit » est illégale. CinéFree fonctionne autrement.</p>
+        <details><summary>Lire l'article</summary>
+          <p>Le droit d'auteur n'est pas éternel. En France, une œuvre est protégée toute la vie de son auteur, puis soixante-dix ans après son décès. Au-delà, elle « tombe » dans le domaine public : elle devient un bien commun que chacun peut copier, diffuser ou projeter sans autorisation ni redevance. C'est ce qui rend libres les chefs-d'œuvre du muet et certains classiques dont les droits n'ont pas été renouvelés.</p>
+          <p>Aux États-Unis, beaucoup de films d'avant 1929 sont libres, et d'autres le sont devenus par accident, faute de renouvellement du copyright. C'est le cas de « Night of the Living Dead », tombé dans le domaine public car la mention de copyright avait été oubliée. Chez CinéFree, chaque film est vérifié et s'appuie sur les archives publiques d'Internet Archive.</p>
+        </details>
+      </article>
+      <article class="article-card">
+        <span class="tag">Sélection</span>
+        <h3>Dix chefs-d'œuvre à (re)découvrir</h3>
+        <p>Le domaine public n'est pas un cimetière de vieilleries. Voici des titres qui méritent une soirée.</p>
+        <details><summary>Lire l'article</summary>
+          <p>« Le Voyage dans la Lune » de Méliès (1902) a inventé le cinéma de science-fiction. « Nosferatu » de Murnau (1922) reste l'une des adaptations les plus inquiétantes de Dracula. Côté rire, « The General » de Buster Keaton (1926) impressionne encore par ses cascades réelles.</p>
+          <p>Côté frissons, « Night of the Living Dead » de Romero (1968) a fondé le film de zombie moderne. Et grâce aux licences Creative Commons, « Big Buck Bunny » et « Sintel » de la Blender Foundation prouvent qu'un studio indépendant peut offrir gratuitement une animation de grande qualité.</p>
+        </details>
+      </article>
+      <article class="article-card">
+        <span class="tag">Décryptage</span>
+        <h3>Creative Commons ou domaine public ?</h3>
+        <p>Deux statuts distincts, un même résultat pour vous : un visionnage légal et gratuit.</p>
+        <details><summary>Lire l'article</summary>
+          <p>Le domaine public concerne les œuvres dont la protection a expiré : plus personne ne détient les droits. Les licences Creative Commons, elles, s'appliquent à des œuvres encore protégées dont l'auteur autorise volontairement certains usages (BY = créditer, SA = partager à l'identique, NC = pas d'usage commercial, ND = pas de modification).</p>
+          <p>Pour le spectateur, les deux mènent au même résultat : un visionnage parfaitement légal et gratuit. C'est l'éditeur qui doit vérifier les conditions de chaque œuvre — ce travail distingue une plateforme sérieuse d'un site illégal.</p>
+        </details>
+      </article>
+    </div>
+  </div>
+</section>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-cols">
+      <div>
+        <a href="/" class="brand" style="margin-bottom:14px"><span class="logo"><svg viewBox="0 0 24 24" fill="#fff"><path d="M8 5v14l11-7z"/></svg></span>Ciné<b>Free</b></a>
+        <p>Le cinéma du domaine public et sous licence libre, en streaming gratuit et 100 % légal.</p>
+      </div>
+      <div>
+        <h4>Naviguer</h4>
+        <a href="#catalogue">Catalogue</a><a href="#magazine">Magazine</a><a href="/faire-un-don.html">Faire un don</a><a href="/contact.html">Contact</a>
+      </div>
+      <div>
+        <h4>Informations</h4>
+        <a href="/mentions-legales.html">Mentions légales</a><a href="/politique-confidentialite.html">Confidentialité</a><a href="/cgu.html">CGU</a><a href="/dmca.html">DMCA / Retrait</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© <span id="yr">2026</span> CinéFree — Éditeur : PRINCE DIKA Ebenezer</span>
+      <span>contact@cinefreestreaming.com</span>
+    </div>
+  </div>
+</footer>
+
+<div class="cookie-banner" id="cookie-banner" role="region" aria-label="Consentement aux cookies">
+  <div class="cookie-inner">
+    <p>Nous utilisons des cookies de mesure d'audience. Vous pouvez accepter ou refuser. <a href="/politique-confidentialite.html">En savoir plus</a>.</p>
+    <div class="cookie-actions">
+      <button class="btn btn-amber" id="cookie-accept">Accepter</button>
+      <button class="btn btn-ghost" id="cookie-refuse">Refuser</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal-overlay" id="donate-modal" role="dialog" aria-modal="true">
+  <div class="modal">
+    <button class="m-close" id="donate-close-x" aria-label="Fermer">&times;</button>
+    <div class="m-icon"><svg viewBox="0 0 24 24" fill="#fff"><path d="M12 21s-7.5-4.6-10-9.3C.4 8.3 2 5 5.2 5c1.9 0 3.2 1 3.8 2 .6-1 1.9-2 3.8-2C16 5 17.6 8.3 16 11.7 13.5 16.4 12 21 12 21z"/></svg></div>
+    <h3>Soutenez CinéFree</h3>
+    <p>Soutenez CinéFree pour continuer à découvrir des films du domaine public. Votre don nous aide à maintenir le site.</p>
+    <div class="modal-actions">
+      <a class="btn btn-primary btn-lg" href="https://www.paypal.com/ncp/payment/AMYW5R5Q7LNY4" target="_blank" rel="noopener" id="donate-give">Faire un don</a>
+      <button class="btn btn-ghost" id="donate-close">Fermer</button>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  // Menu mobile
+  var t=document.getElementById("nav-toggle"),l=document.getElementById("nav-links");
+  if(t&&l){t.addEventListener("click",function(){l.classList.toggle("open")});}
+  // Année
+  var y=document.getElementById("yr"); if(y) y.textContent=new Date().getFullYear();
+
+  // Cookies + GA conditionnel
+  var GA_ID="G-XXXXXXXXXX";
+  function loadGA(){if(!GA_ID||GA_ID.indexOf("XXXX")>-1||window.__ga)return;window.__ga=1;var s=document.createElement("script");s.async=true;s.src="https://www.googletagmanager.com/gtag/js?id="+GA_ID;document.head.appendChild(s);window.dataLayer=window.dataLayer||[];function g(){dataLayer.push(arguments)}window.gtag=g;g("js",new Date());g("config",GA_ID,{anonymize_ip:true});}
+  var banner=document.getElementById("cookie-banner"),CK="cf_cookie",c=null;
+  try{c=localStorage.getItem(CK)}catch(e){}
+  if(c==="accepted")loadGA();else if(c!=="refused"&&banner)banner.classList.add("show");
+  function setC(v){try{localStorage.setItem(CK,v)}catch(e){}if(banner)banner.classList.remove("show");if(v==="accepted")loadGA();}
+  var a=document.getElementById("cookie-accept"),r=document.getElementById("cookie-refuse");
+  if(a)a.addEventListener("click",function(){setC("accepted")});
+  if(r)r.addEventListener("click",function(){setC("refused")});
+
+  // Popup don (1x / 30 jours)
+  var m=document.getElementById("donate-modal");
+  if(m){var DK="cf_donate",last=0;try{last=parseInt(localStorage.getItem(DK)||"0",10)}catch(e){}
+    function dim(){m.classList.remove("show");try{localStorage.setItem(DK,String(Date.now()))}catch(e){}}
+    if(!last||Date.now()-last>2592000000)setTimeout(function(){m.classList.add("show")},1200);
+    var cx=document.getElementById("donate-close-x"),cl=document.getElementById("donate-close"),gv=document.getElementById("donate-give");
+    if(cx)cx.addEventListener("click",dim);if(cl)cl.addEventListener("click",dim);if(gv)gv.addEventListener("click",dim);
+    m.addEventListener("click",function(e){if(e.target===m)dim()});
+  }
+
+  // ============ Catalogue Internet Archive (JSONP) ============
+  // 4 sections, compteurs exacts, triées par les plus vus.
+  // Chaque section a une sélection de SECOURS vérifiée (affiches garanties).
+  var mount=document.getElementById("rails"); if(!mount)return;
+
+  var CATS=[
+    { t:"Films", n:6, q:'mediatype:(movies) AND collection:(feature_films)',
+      fb:[
+        {id:"Nosferatu1922",ti:"Nosferatu",m:"F. W. Murnau · 1922"},
+        {id:"night_of_the_living_dead",ti:"Night of the Living Dead",m:"George A. Romero · 1968"},
+        {id:"TheGeneral_201303",ti:"The General",m:"Buster Keaton · 1926"},
+        {id:"Le_voyage_dans_la_lune",ti:"Le Voyage dans la Lune",m:"Georges Méliès · 1902"},
+        {id:"BigBuckBunny_124",ti:"Big Buck Bunny",m:"Blender Foundation · 2008",cc:1},
+        {id:"Sintel",ti:"Sintel",m:"Blender Foundation · 2010",cc:1}
+      ]},
+    { t:"Séries", n:4, q:'mediatype:(movies) AND collection:(classic_tv)',
+      fb:[
+        {id:"SherlockHolmes1954",ti:"Sherlock Holmes",m:"Série · 1954"},
+        {id:"onestepbeyond_201910",ti:"One Step Beyond",m:"Série · 1959"},
+        {id:"hawkeye-the-last-of-the-mohicans",ti:"Last of the Mohicans",m:"Série · 1957"},
+        {id:"SherlockHolmes1954",ti:"Sherlock Holmes (suite)",m:"Série · 1954"}
+      ]},
+    { t:"Documentaires", n:3, q:'mediatype:(movies) AND collection:(prelinger)',
+      fb:[
+        {id:"nanookOfTheNorth1922",ti:"Nanook of the North",m:"R. Flaherty · 1922"},
+        {id:"manOfAran1934",ti:"Man of Aran",m:"R. Flaherty · 1934"},
+        {id:"silent-nanook-of-the-north",ti:"Nanook (version muette)",m:"Documentaire · 1922"}
+      ]},
+    { t:"Théâtre & adaptations", n:2,
+      q:'mediatype:(movies) AND (title:(shakespeare) OR title:(macbeth) OR title:(hamlet) OR subject:(theatre) OR subject:(stage play))',
+      fb:[
+        {id:"shakespearestheater_201505",ti:"Shakespeare's Theater",m:"Captation · théâtre"},
+        {id:"SherlockHolmes1954",ti:"Sur les planches",m:"Adaptation scénique"}
+      ]}
+  ];
+
+  var n=0;
+  function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
+  function ia(q,rows,cb){var nm="iacb_"+(n++),done=false,s=document.createElement("script");
+    window[nm]=function(d){done=true;clean();cb(d&&d.response&&d.response.docs?d.response.docs:[])};
+    function clean(){try{delete window[nm]}catch(e){window[nm]=undefined}if(s.parentNode)s.parentNode.removeChild(s)}
+    s.onerror=function(){if(!done){clean();cb([])}};
+    s.src="https://archive.org/advancedsearch.php?q="+encodeURIComponent(q)+"&fl[]=identifier&fl[]=title&fl[]=year&sort[]=downloads+desc&rows="+rows+"&page=1&output=json&callback="+nm;
+    document.head.appendChild(s);setTimeout(function(){if(!done){clean();cb([])}},9000);}
+  function cardLive(d){var id=d.identifier,ti=Array.isArray(d.title)?d.title[0]:(d.title||id),yr=d.year?String(d.year).slice(0,4):"";
+    return cardHTML(id,ti,yr?("Domaine public · "+yr):"Domaine public",yr,0);}
+  function cardFb(f){return cardHTML(f.id,f.ti,f.m,(f.m.match(/\d{4}/)||[""])[0],f.cc);}
+  function cardHTML(id,ti,meta,yr,cc){
+    return '<a class="rail-card" href="https://archive.org/details/'+encodeURIComponent(id)+'" target="_blank" rel="noopener"><div class="poster"><img src="https://archive.org/services/img/'+encodeURIComponent(id)+'" alt="'+esc(ti)+'" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest(\'.poster\').classList.add(\'noimg\')"><div class="grad"></div>'+(cc?'<div class="badge-cc">CC</div>':'')+'<div class="play"><span><svg viewBox="0 0 24 24" fill="#fff"><path d="M8 5v14l11-7z"/></svg></span></div>'+(yr?'<div class="cap"><span class="yr">'+esc(yr)+'</span></div>':'')+'</div><div class="rc-title">'+esc(ti)+'</div></a>'; }
+  function skel(k){var h="";for(var i=0;i<k;i++)h+='<div class="rail-skel"><div class="sk"></div></div>';return h}
+
+  CATS.forEach(function(cat){
+    var sec=document.createElement("section");sec.className="rail";
+    sec.innerHTML='<div class="rail-head"><h3>'+esc(cat.t)+'</h3><span class="count">'+cat.n+' titres</span></div><div class="rail-track">'+skel(cat.n)+'</div>';
+    mount.appendChild(sec);
+    var track=sec.querySelector(".rail-track");
+    function showFallback(){track.innerHTML=cat.fb.slice(0,cat.n).map(cardFb).join("");}
+    ia(cat.q,cat.n,function(docs){
+      docs=docs.filter(function(d){return d&&d.identifier}).slice(0,cat.n);
+      if(docs.length>=Math.min(2,cat.n)){track.innerHTML=docs.map(cardLive).join("");}
+      else{showFallback();}
+    });
+  });
+})();
+</script>
+</body>
+</html>
